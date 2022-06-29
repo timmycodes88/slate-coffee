@@ -1,0 +1,80 @@
+{
+  "current": {
+    "colors_accent_1": "#80411e",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time ☕️",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_t.png",
+          "logo_width": 190,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "fc048d47-de14-4db9-a704-ec7213c610b1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "5dda7370-7cad-49ee-9107-990ef972907d": {
+            "type": "text",
+            "settings": {
+              "heading": "Slate Coffee",
+              "subtext": "<p>📍 4194 Mapleview Ave<br\/>Tampa, Florida 33607<\/p><p>📞 727-955-3308<br\/>📧 hello@slatecoffee.com<\/p><p>Mo-Fr: 4:00AM - 3:00PM<br\/>Sa-Su: 12:00AM-12:00AM<\/p><p><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "fc048d47-de14-4db9-a704-ec7213c610b1",
+          "5dda7370-7cad-49ee-9107-990ef972907d"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "4 Coffee Lovers ❤️",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
