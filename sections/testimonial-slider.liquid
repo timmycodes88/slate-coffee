@@ -1,0 +1,79 @@
+<h2>{{section.settings.heading}}</h2>
+
+  <div class="slide-show-cards">
+    
+    {% for block in section.blocks %}
+
+    <div class="slide-show-card" style="height: 350px;">
+
+      <div class="quotes-svg">
+        {% render 'icon-quotes' %}
+      </div>
+      <div class="testimonial-text">
+        {{block.settings.quote}}
+      </div>
+      <div class="profile-img">
+        <img src="{{block.settings.image | img_url: 'master'}}" />
+      </div>
+      <div class="testimonial-name">
+        {{block.settings.name}}
+      </div>
+
+    </div>
+
+    {% endfor %}
+
+    
+  </div>
+
+{% schema %}
+    {
+        "name": "Testimonal Slider",
+        "settings": [
+            {
+                "type":"text",
+                "label":"Heading (optional)",
+                "id":"heading"
+            }
+        ],
+        "blocks": [
+            {
+                "type":"testimonial",
+                "name":"Testimonial",
+                "settings": [
+                    {
+                        "type":"image_picker",
+                        "label":"Customer Profile Image",
+                        "id":"image"
+                    },
+                    {
+                        "type":"text",
+                        "label":"Customer's Name",
+                        "id":"name"
+                    },
+                    {
+                        "type":"richtext",
+                        "label":"Customer Quote",
+                        "id":"quote"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Testimonal Slider",
+                "blocks": [
+                    {
+                        "type": "testimonial"
+                    },
+                    {
+                        "type": "testimonial"
+                    },
+                    {
+                        "type": "testimonial"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

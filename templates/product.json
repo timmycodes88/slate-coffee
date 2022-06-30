@@ -124,11 +124,67 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "1656623789a16a2d39": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "16566237893374022c-0": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roaster.png",
+            "name": "Jooy",
+            "quote": "<p>afas THSJDFH SDTHSD THH hjka jklsal aslkdalksd sdhasl sd a sdas d asd asd <\/p>"
+          }
+        },
+        "16566237893374022c-1": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
+            "name": "aaalfred",
+            "quote": "<p>afas THSJDFH SDTHSD THH hjka jklsal aslkdalksd sdhasl sd a sdas d asd asd <\/p>"
+          }
+        },
+        "16566237893374022c-2": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer.png",
+            "name": "Benn",
+            "quote": "<p>afas THSJDFH SDTHSD THH hjka jklsal aslkdalksd sdhasl sd a sdas d asd asd <\/p>"
+          }
+        },
+        "94cd61d9-20cb-4222-9b9c-b3ddd602c265": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
+            "name": "Jeffery",
+            "quote": "<p>Amzing shit my dudes!<\/p>"
+          }
+        },
+        "dbf51a72-553a-473c-90a0-0bcaebdfdd22": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer.png",
+            "name": "Johnny",
+            "quote": "<p>I love this shit like a lot<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16566237893374022c-0",
+        "16566237893374022c-1",
+        "16566237893374022c-2",
+        "94cd61d9-20cb-4222-9b9c-b3ddd602c265",
+        "dbf51a72-553a-473c-90a0-0bcaebdfdd22"
+      ],
+      "settings": {
+        "heading": "Gah Damn"
+      }
     }
   },
   "order": [
     "main",
     "16566149057f824aee",
-    "16566162968d680de0"
+    "16566162968d680de0",
+    "1656623789a16a2d39"
   ]
 }

@@ -2112,3 +2112,49 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+/* Custom CSS */
+.slide-show-cards {
+  width: 100%;
+}
+
+.slide-show-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 5px 5px 15px 5px #0000004a;
+  max-width: 350px;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.slide-show-card:focus {
+  box-shadow: 5px 5px 15px 5px #0000004a;
+}
+
+.quotes-svg {
+  width: 70%;
+}
+
+.quotes-svg>svg {
+  width: 10%;
+  max-height: 35px;
+}
+
+.testimonial-text {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img>img {
+  border-radius: 50%;
+  width: 100px;
+  margin: auto;
+}
+
+.testimonial-name {
+  text-align: center;
+}
