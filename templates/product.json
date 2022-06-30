@@ -110,10 +110,14 @@
         "swipe_on_mobile": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "16566162968d680de0": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "You may also like",
+        "title": "Featured collection",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -125,6 +129,6 @@
   "order": [
     "main",
     "16566149057f824aee",
-    "product-recommendations"
+    "16566162968d680de0"
   ]
 }
