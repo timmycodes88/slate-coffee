@@ -73,6 +73,14 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "main-test-product": {
+        "type": "main-test-product",
+        "settings": {
+          "tax": "asdddd",
+          "shipping": "dddd",
+          "show_reviews": false
+        }
       }
     },
     "content_for_index": []

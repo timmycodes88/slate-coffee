@@ -1,0 +1,33 @@
+
+<h2>{{product.title}}</h2>
+<img src="{{product.featured_image | img_url: '300x'}}" />
+
+<h4>{{section.settings.tax}}</h4>
+<h4>{{section.settings.shipping}}</h4>
+
+{% if section.settings.show_reviews %}
+<h4>5/5</h4>
+{% endif %}
+
+{% schema %}
+    {
+        "name": "product page content",
+        "settings": [
+            {
+                "id":"tax",
+                "label":"tax-notice",
+                "type":"text"
+            },
+            {
+                "id":"shipping",
+                "label":"shipping-notice",
+                "type":"text"
+            },
+            {
+                "id":"show_reviews",
+                "label":"show reviews?",
+                "type":"checkbox"
+            }
+        ]
+    }
+{% endschema %}

@@ -27,7 +27,9 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -35,7 +37,9 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {}
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
           "type": "description",
@@ -57,15 +61,70 @@
         "description",
         "share"
       ],
-      "settings": {}
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "16566149057f824aee": {
+      "type": "multicolumn",
+      "blocks": {
+        "1656614905719b63bc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer.png",
+            "title": "Direct Relations to Farmers",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,<br\/>molestiae quas vel sint commodi repudiandae consequuntur!<\/p>"
+          }
+        },
+        "1656614905719b63bc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
+            "title": "Plant a Tree for 3rd Order",
+            "text": "<p>Voluptatum laborum<br\/>numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium<br\/>optio, eaque rerum! Provident similique accusantium nemo autem.<\/p>"
+          }
+        },
+        "1656614905719b63bc-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roaster.png",
+            "title": "Roasted by Hand in FL",
+            "text": "<p>Quo neque error repudiandae fuga? Ipsa laudan sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam<br\/>recusandae maxime adipisci amet laborum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1656614905719b63bc-0",
+        "1656614905719b63bc-1",
+        "1656614905719b63bc-2"
+      ],
+      "settings": {
+        "title": "Our Promises ⭐",
+        "image_width": "third",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "settings": {}
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
     }
   },
   "order": [
     "main",
+    "16566149057f824aee",
     "product-recommendations"
   ]
 }

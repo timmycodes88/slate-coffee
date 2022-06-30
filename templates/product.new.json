@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "settings": {
+        "tax": "asd",
+        "shipping": "ads",
+        "show_reviews": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
