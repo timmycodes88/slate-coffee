@@ -48,6 +48,15 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "88aea1ee-252e-4370-9bd5-8c3da6f79196": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping Times",
+            "content": "<p>{{ product.metafields.custom.shipping.value }}<\/p>",
+            "page": "",
+            "icon": "truck"
+          }
         }
       },
       "block_order": [
@@ -59,7 +68,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "88aea1ee-252e-4370-9bd5-8c3da6f79196"
       ],
       "settings": {
         "enable_sticky_info": true,
